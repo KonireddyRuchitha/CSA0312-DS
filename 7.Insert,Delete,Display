@@ -9,6 +9,7 @@ int main()
 	{
 		printf("enter the numbers in array :");
 		scanf("%d",&arr[i]);
+		
 	}
 	printf("enter the number insert in array");
 	scanf("%d",&x);	
