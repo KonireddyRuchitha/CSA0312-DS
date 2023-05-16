@@ -10,8 +10,3 @@ int main()
     }
     printf("%d factorial is %d",a,fact);
 }
-
-
-OUTPUT:
-enter a number= 8
-8 factorial is 40320
