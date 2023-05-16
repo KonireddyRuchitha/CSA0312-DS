@@ -7,14 +7,9 @@ int main() {
     printf("Factorial of %d = %ld", n, multiplyNumbers(n));
     return 0;
 }
-
 long int multiplyNumbers(int n) {
     if (n>=1)
         return n*multiplyNumbers(n-1);
     else
         return 1;
 }
-
-OUTPUT:
-Enter a positive integer: 11
-Factorial of 11 = 39916800
